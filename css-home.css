@@ -9,3 +9,18 @@ header {
     background-color: black;
     color: aliceblue;
 }
+#navigation ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+}
+
+#navigation li {
+    float: left;
+}
+
+#navigation a {
+    display: block;
+    padding: 8px;
+}
