@@ -1,9 +1,14 @@
-h1, h2 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+body {
+    background: #000000;
 }
+
+h1, h2, p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #d8d8d8;
+}
+
 header {
-    background-color: floralwhite;
-    color: cadetblue;
+    background-color: #333;
 }
 #navigation {
     background-color: black;
@@ -11,9 +16,10 @@ header {
 }
 #navigation ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 60px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 #navigation li {
@@ -23,4 +29,21 @@ header {
 #navigation a {
     display: block;
     padding: 8px;
+    background-color: #333;
+}
+
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: #111;
+}
+
+#navigation .active {
+    background-color: #9E1212;
 }
