@@ -1,5 +1,5 @@
 body {
-    background: #000000;
+    background: #404040;
 }
 
 h1, h2, p, a {
@@ -46,4 +46,9 @@ header {
 
 #navigation .active {
     background-color: #9E1212;
+}
+
+#content {
+    margin-left: 100px;
+    margin-right: 100px;
 }
