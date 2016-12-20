@@ -52,3 +52,22 @@ header {
     margin-left: 100px;
     margin-right: 100px;
 }
+
+#footer {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer li a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+}
